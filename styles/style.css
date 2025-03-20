@@ -34,9 +34,22 @@ section{
 }
 
 button{
+    border-radius: 15px;
+    border: #7F7CAF, 2px solid;
+    font-size: 16px;
+    margin-top: 60px;
     background-color: none;
-    padding: 15px;    
+    padding-top: 20px;    
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
     align-self: center;
+}
+
+button:hover{
+    background-color: #7F7CAF;
+    color: #EEEEFF;
+    transition-duration: 0.5s;
 }
 
 img{
@@ -51,4 +64,8 @@ img{
     justify-items: center;
     padding-right: 0px;
     background-color: #7F7CAF;
+}
+
+#perfil h2{
+    text-align: center;
 }
