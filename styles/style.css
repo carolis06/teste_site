@@ -1,5 +1,6 @@
 body{
-    background-color: #EEEEFF;
+    background-color: #F3F7F0;
+    margin: 0;
 }
 
 h1{
@@ -35,7 +36,7 @@ section{
 
 button{
     border-radius: 15px;
-    border: #7F7CAF, 2px solid;
+    border: #D5A021, 2px solid;
     font-size: 16px;
     margin-top: 60px;
     background-color: none;
@@ -47,14 +48,13 @@ button{
 }
 
 button:hover{
-    background-color: #7F7CAF;
+    background-color: #D5A021;
     color: #EEEEFF;
     transition-duration: 0.5s;
 }
 
 img{
     align-self: center;
-    border: #28587B, solid,2.5px;
     border-radius: 100%;
     width: 225px;
     height: 225px;
@@ -63,9 +63,16 @@ img{
 #perfil{
     justify-items: center;
     padding-right: 0px;
-    background-color: #7F7CAF;
+    background-color: #0D5C63;
 }
 
 #perfil h2{
     text-align: center;
+}
+
+footer{
+    background-color: #0D0221;
+    margin: 0;
+    border: 0;
+    color: #FFFFFA;
 }
