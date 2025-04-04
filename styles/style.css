@@ -44,6 +44,11 @@ section{
     padding-right: 15px;
 }
 
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 footer{
     background-color: #0D5C63;
     margin: 0;
