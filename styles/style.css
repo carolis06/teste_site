@@ -31,6 +31,19 @@ main {
     margin-bottom: 20px;
 }
 
+li{
+    list-style: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 22.5%;
+    height: 500px;
+    text-align: justify;    
+    padding-right: 15px;
+}
+
 footer{
     background-color: #0D5C63;
     margin: 0;
