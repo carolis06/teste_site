@@ -68,6 +68,17 @@ button:hover{
     transition-duration: 0.5s;
 }
 
+#perfil{
+    justify-items: center;
+    padding-right: 0px;
+    background-color: #0D5C63;
+    border-radius: 15px;
+}
+
+#perfil h2{
+    text-align: center;
+}
+
 footer{
     background-color: #0D5C63;
     margin: 0;
