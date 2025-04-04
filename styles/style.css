@@ -49,6 +49,25 @@ div{
     justify-content: space-evenly;
 }
 
+button{
+    border-radius: 15px;
+    border: #D5A021, 2px solid;
+    font-size: 16px;
+    margin-top: 60px;
+    background-color: none;
+    padding-top: 20px;    
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-self: center;
+}
+
+button:hover{
+    background-color: #D5A021;
+    color: #EEEEFF;
+    transition-duration: 0.5s;
+}
+
 footer{
     background-color: #0D5C63;
     margin: 0;
