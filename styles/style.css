@@ -1,3 +1,13 @@
+:root {
+    --cor-primaria: #28587B;
+    --cor-secundaria: #9FB4C7;
+    --cor-fundo: #F3F7F0;
+    --cor-texto: #000;
+    --cor-botao: #EEEEFF;
+    --cor-botao-borda: #D5A021;
+    --cor-hover: #D5A021;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -8,10 +18,14 @@ html, body {
 body{
     background-color: #F3F7F0;
     margin: 0;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 h1{
     color: #28587B;
+    color: var(--cor-primaria); 
 }
 
 header{
@@ -20,6 +34,7 @@ header{
 
 header h2{
     color: #9FB4C7;
+    color: var(--cor-secundaria);
 }
 
 main {
@@ -51,21 +66,24 @@ div{
 
 button{
     border-radius: 15px;
-    border: #D5A021, 2px solid;
+    border: var(--cor-botao-borda), 2px solid;
     font-size: 16px;
     margin-top: 60px;
-    background-color: none;
     padding-top: 20px;    
     padding-bottom: 20px;
     padding-left: 60px;
     padding-right: 60px;
     align-self: center;
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 button:hover{
-    background-color: #D5A021;
     color: #EEEEFF;
     transition-duration: 0.5s;
+    background-color: var(--cor-hover);
 }
 
 img{
@@ -95,6 +113,16 @@ footer{
     height: 100%;
     font-size: 20px;
     text-align: center;
+}
+
+.dark-mode {
+    --cor-fundo: #1E1E1E;
+    --cor-texto: #FFF;
+    --cor-primaria: #90CAF9;
+    --cor-secundaria: #BB86FC;
+    --cor-botao: #1E1E1E;
+    --cor-botao-borda: #3700B3;
+    --cor-hover: #6200EE;
 }
 
 @media (max-width: 768px) {
